@@ -2,6 +2,14 @@
 	
 <append xpath="/recipes">
 	
+<recipe name="HDSpas12Reflex" count="1" craft_time = "30" craft_area="HD GunBench" tags="learnable">
+	<ingredient name="resourceForgedSteel" count="20"/>
+	<ingredient name="resourceGlue" count="2"/>
+	<ingredient name="resourceMechanicalParts" count="5"/>
+	<ingredient name="resourceSpring" count="5"/>
+	<ingredient name="HDGun Oil" count="2"/>
+</recipe>
+	
 <recipe name="HDGlock18Auto" craft_tool="HDCncHandGuns" craft_area="HD GunBench" count="1" craft_time = "90" tags="perkGunslinger">
 	<ingredient name="resourceForgedIron" count="45"/>
 	<ingredient name="resourceMechanicalParts" count="10"/>
