@@ -743,7 +743,6 @@
 	<property name="LightValue" value=".55"/>
 	<property name="EconomicValue" value="1250"/>
 	<property name="ShowQuality" value="true"/>
-
 	<property class="Action0">
 		<property name="Class" value="Ranged"/>
 		<property name="Magazine_items" value="ammo9mmBulletBall,ammo9mmBulletHP,ammo9mmBulletAP"/>
@@ -763,7 +762,6 @@
 		<property name="Zoom_max_in" value="55"/>
 		<property name="ScopeCameraOffset" value="0,-.001,0"/>
 	</property>
-
 	<effect_group name="gunPistol">
 		<passive_effect name="MaxRange" operation="base_set" value="65"/>
 		<passive_effect name="DamageFalloffRange" operation="base_set" value="45"/>
@@ -782,9 +780,9 @@
 		<passive_effect name="BlockDamage" operation="perc_add" value=".05"/>
 		<passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
 		<passive_effect name="DegradationMax" operation="perc_add" value="-.2,.2" tags="perkGunslinger"/>
-		<passive_effect name="RoundsPerMinute" operation="perc_add" value="0"/>
-		<passive_effect name="MagazineSize" operation="perc_add" value="0"/>
-		<passive_effect name="WeaponHandling" operation="perc_add" value="0"/>
+		<passive_effect name="RoundsPerMinute" operation="perc_add" value="-.05,.05"/>
+		<passive_effect name="MagazineSize" operation="perc_add" value="-.122,.122"/>
+		<passive_effect name="WeaponHandling" operation="perc_add" value="-.08,.08"/>
 		<passive_effect name="SpreadDegreesVertical" operation="base_set" value="1.5"/>
 		<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="1.5"/>
 		<passive_effect name="SpreadMultiplierAiming" operation="base_set" value=".4"/>

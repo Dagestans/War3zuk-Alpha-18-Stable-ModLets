@@ -564,6 +564,7 @@
 		<item_property_overrides name="HDGlock18Auto">
 			<property name="Sound_start" value="HDGlockAutoFireS"/>
 			<property name="Sound_loop" value="HDGlockAutoFireS"/>
+			<property name="CrosshairOnAim" value="true"/>
 			<property name="BarrelScale" value="1,1,1"/>
 			<property name="ScopeCameraOffset" value="0,-0.001,0"/>
 		</item_property_overrides>
