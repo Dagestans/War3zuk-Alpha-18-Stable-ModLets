@@ -7,10 +7,10 @@
 	<property name="Tags" value="blunt,melee,grunting,heavy,sledge,weapon,meleeWeapon,perkElectrocutioner,attStrength,perkSkullCrusher,canHaveCosmetic"/>
 	<property name="DisplayType" value="melee"/>
 	<property name="HoldType" value="33"/>
-	<property name="Meshfile" value="#@modfolder:Resources/HD Xcalibur.unity3d?HD Xcalibur.Prefab"/>
+	<property name="Meshfile" value="#@modfolder:Resources/HD Xcalibur.unity3d?HDXcalibur.Prefab"/>
 	<property name="CustomIcon" value="HDXcalibur"/>
 	<property name="Material" value="MmeleeToolSledgehammerSteel"/> <property name="Weight" value="10"/>
-	<property name="RepairTools" value="RepairKitIronTools"/>
+	<property name="RepairTools" value="resourceRepairKit"/>
 	<property name="DegradationBreaksAfter" value="false"/>
 	<property name="SoundJammed" value="ItemNeedsRepair"/>
 	<property name="SoundDestroy" value="metaldestroy1"/>
